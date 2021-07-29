@@ -1,3 +1,3 @@
 #!/bin/sh
 
-wkhtmltopdf --zoom 0.7 index.html Resume.pdf
+wkhtmltopdf --enable-local-file-access --zoom 0.75 index.html Resume.pdf
