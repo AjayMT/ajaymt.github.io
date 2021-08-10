@@ -1,87 +1,77 @@
-
 body {
-    font-family:
-        system-ui,
-        -apple-system,
-        BlinkMacSystemFont,
-        Segoe UI,
-        Roboto,
-        Oxygen,
-        Ubuntu,
-        Cantarell,
-        Fira Sans,
-        Droid Sans,
-        Helvetica Neue,
-        sans-serif;
-    font-size: 13pt;
-    font-style: normal;
+	font-family:
+		system-ui,
+		-apple-system,
+		BlinkMacSystemFont,
+		Segoe UI,
+		Roboto,
+		Oxygen,
+		Ubuntu,
+		Cantarell,
+		Fira Sans,
+		Droid Sans,
+		Helvetica Neue,
+		sans-serif;
 }
 
 a {
-    color: #00e;
-    text-decoration: none;
+	color: #733;
+	text-decoration: none;
+	border-bottom: 1px solid #ccc;
 }
 
 a:hover {
-    border-bottom: solid 1px #00e;
+	color: #844;
+	border-bottom: 1px solid #844;
 }
 
-ul {
-    list-style-type: square;
+pre {
+	border: 1px solid #ccc;
+	border-radius:  4px;
+	padding: 20px;
 }
 
-.prose {
-    font-size: 12pt;
-    line-height: 1.3;
+.center {
+	text-align: center;
 }
 
-.sidebar-li {
-    padding: 5px;
-}
-
-.sidebar-ul {
-    list-style-type: none;
-}
-
-.sidebar {
-    padding-top: 60px;
-    position: sticky;
-    top: 0px;
-}
-
-.section-padding {
-    padding: 30px;
-}
-
-#wrapper {
-    padding-top: 50px;
-    display: grid;
-    grid-template-columns: 1fr 2fr 6fr 3fr 1fr;
-    grid-gap: 10px;
-    grid-auto-rows: minmax(100px, auto);
-}
-
-#faceimg {
-    object-fit: cover;
-    border-radius: 50%;
-    width: 100%;
-    height: auto;
+#header {
+	padding: 20px;
 }
 
 #name {
-    text-align: center;
-    font-weight: bold;
-    padding: 10px;
+	font-size: 28pt;
+	font-weight: bold;
 }
 
-#email {
-    text-align: center;
-    font-size: 12pt;
-    padding: 10px;
+#subtitle {
+	color: #555;
+	font-size: 20pt;
 }
 
-#links {
-    text-align: center;
-    padding: 10px;
-    font-size: 12pt;
+#face {
+	object-fit: cover;
+	border-radius: 50%;
+	width: 200px;
+	height: auto;
+}
+
+#wrapper {
+	max-width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#two-cols {
+	display: grid;
+	grid-template-columns: 3fr 1fr;
+	grid-auto-rows: minmax(100px, auto);
+	column-gap: 10px;
+	row-gap: 1em;
+}
+
+#thorin-img {
+	object-fit: cover;
+	width: 200px;
+	height: 150px;
 }
